@@ -11,6 +11,9 @@ app.use(helmet());
 app.use(express.json());
 
 app.use("/vehicles", vehicleRoutes);
+const gpsRoutes = require("./routes/gps");
+app.use("/gps", gpsRoutes);
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
