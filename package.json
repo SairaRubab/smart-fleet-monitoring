@@ -1,0 +1,23 @@
+{
+  "name": "smart-fleet-monitoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SairaRubab/smart-fleet-monitoring.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SairaRubab/smart-fleet-monitoring/issues"
+  },
+  "homepage": "https://github.com/SairaRubab/smart-fleet-monitoring#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
